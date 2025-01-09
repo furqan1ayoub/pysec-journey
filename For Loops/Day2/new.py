@@ -19,8 +19,8 @@ for i in range(1,76):
 #s1: get the no from user
 inputUser = int(input("Enter the no. to find a factorial of - "))
 
-#s2: set the box value where we multiply any value incoming :-
-factorial = 1
+#s2: set the box(#initializing factorial box) value where we multiply any value incoming :-
+factorial = 1 
 #s3: use for loop from 1 upto that input NO.  -> using range
 
 for i in range(1,inputUser+1): #cause -> last here skipped so we add 1 to not skip the inputUser but include it too
