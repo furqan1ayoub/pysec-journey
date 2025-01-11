@@ -10,14 +10,15 @@ for i in range(1,11):
     print(f"{uInput} x  {i} = {uInput*i}")
 
 
-#6)Prime Numbers: Write a program to find all prime numbers between 1 and 100 using a loop.
+#6)Prime Numbers: Write a program to find all prime numbers between 1 and 101 using a loop.
 
-
-for a in range(2,100):
+for a in range(2,101):
+    print("Checking ",a)
     is_Prime = True
-    for c in range(2,a):
-    	if a % c == 0:
-         is_Prime = False
-         break
-    if is_Prime:print(f"{a} -- a prime no")
-    elif is_Prime ==False:print(f"{a}  -- not a prime no")
+    for i in range(2,a):
+        if a % i == 0: # this is for understanding ....if a ya no ke peche values from 2 in it - it is getting divided by anyone break as it won't be prime....
+            is_Prime = False
+            break # cause it is divisible more than 1 and itself so -> not a prime so we don't want to check after it
+        #this loop ends
+    if is_Prime:print(f"{a} is a prime No.")
+    else : print(f"{a} isn't a Prime No.")
