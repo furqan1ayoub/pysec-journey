@@ -12,7 +12,21 @@ for i in range(1,11):
 
 #6)Prime Numbers: Write a program to find all prime numbers between 1 and 101 using a loop.
 
-for a in range(2,101):
+for i in range(2,101):
+    prime= True
+    for y in range(2,i):
+        if i % y==0:
+            print(i,"Not a Prime ","divisible by",y)
+            prime = False
+            break
+    if prime:print(i,"a prime no..")
+    
+    
+    
+    
+#explained way
+
+for a in range(2,10):
     print("Checking ",a)
     is_Prime = True
     for i in range(2,a):

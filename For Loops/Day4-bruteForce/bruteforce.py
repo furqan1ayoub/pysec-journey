@@ -19,7 +19,6 @@ for username in usernames:
             print(f"Password: {password}")
             logged_in = True
             break  # Break out of the password loop
-
     if logged_in:
         break  # Break out of the username loop
 
