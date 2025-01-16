@@ -14,7 +14,7 @@ users = [
     {"name": "Furqan Ayoub", "address": "987 Walnut Street", "pin": "2468"},
 ]
 
-import time
+
 def attackfunc(user):
     print("Starting..........")
     print("--------------------------")
