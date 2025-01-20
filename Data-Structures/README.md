@@ -17,7 +17,7 @@
 ```
 # Use Real-World Examples
 ```md
-- List: Shopping list, tasks that can repeat and need ordering.
+- List: Shopping list, tasks that can repeat , changable  and need ordering.
 - Set: Password requirements (unique, unordered,changable).
 - Dictionary: Phonebook with names as keys and phone numbers as values (name(keys)-should be understandable keys can be anything).
 - Tuple: GPS coordinates (latitude, longitude), which should not change but ordered i.e (long,lati) isn't true but always (lat , long ). 
