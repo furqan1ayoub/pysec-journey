@@ -69,3 +69,4 @@ temp_data.clear()
 print(temp_data)  # Output: []
 
 
+
