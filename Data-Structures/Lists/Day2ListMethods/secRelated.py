@@ -32,14 +32,7 @@ Both methods serve their purpose, and which one to choose depends on your specif
 
 Use Approach 1 if performance and brevity are your priorities.
 Use Approach 2 if you want an ordered and easily customizable process. """
-#Recommendation:
-"""
-Use Approach 1 for efficiency and Approach 2 when you need finer control or deeper practice.
 
-For a cybersecurity mindset:
-
-Think about which approach is better for analyzing logs, scanning networks, or automating workflows where performance can be critical. Use sets for most cases!
-"""
 
 #q2) •	IP Address Validation: Check if IP exists in a list & give its index 
 #q3) •	Username Check: Check username existence in a list
