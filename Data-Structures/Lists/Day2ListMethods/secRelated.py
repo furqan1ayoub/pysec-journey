@@ -37,6 +37,15 @@ Use Approach 2 if you want an ordered and easily customizable process. """
 #q2) •	IP Address Validation: Check if IP exists in a list & give its index 
 #q3) •	Username Check: Check username existence in a list
 
+
+# IP Address Validation (Q2)
+input1ip = input("ENTER THE IP TO CHECK = ")
+if input1ip in ips_list1:
+    print(f"FOUND - {input1ip} in ips_list1 at index {ips_list1.index(input1ip)}")
+elif input1ip in ips_list2:
+    print(f"FOUND - {input1ip} in ips_list2 at index {ips_list2.index(input1ip)}")
+else:
+    print("NOT FOUND...!")
 usernames_list1 = [
     "cyber_hawk",
     "tech_wizard",
@@ -53,21 +62,10 @@ usernames_list2 = [
     "data_hunter"
 ]
 
-# IP Address Validation (Q2)
-input1ip = input("ENTER THE IP TO CHECK = ")
-if input1ip in ips_list1:
-    print(f"FOUND - {input1ip} in ips_list1 at index {ips_list1.index(input1ip)}")
-elif input1ip in ips_list2:
-    print(f"FOUND - {input1ip} in ips_list2 at index {ips_list2.index(input1ip)}")
+inputName = input("ENTER THE USERNAME TO FIND ")
+if inputName in usernames_list1:
+    print(f"FOUND {inputName} in Username List 1 at index -> {usernames_list1.index(inputName)}")
+elif inputName in usernames_list2:
+    print(f"FOUDN {inputName} in User List 2 at index - {usernames_list2.index(inputName)}")
 else:
-    print("NOT FOUND...!")
-
-# Username Check (Q3) 
-input2Name = input('ENTER THE NAME TO FIND - ')
-if input2Name in usernames_list1:
-    print(f"FOUND - {input2Name} in usernames_list1 at index - {usernames_list1.index(input2Name)}")
-elif input2Name in usernames_list2:
-    print(f"FOUND - {input2Name} in usernames_list2 at index - {usernames_list2.index(input2Name)}")
-else:
-    print("NOT FOUND..")
-
+    print("NOT FOUND")

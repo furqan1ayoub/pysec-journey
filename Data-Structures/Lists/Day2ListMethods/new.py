@@ -47,15 +47,21 @@ print(large_No)
 array2 = [2,5,6,2]
 array3 = [5,23,5,1,55]
 combined_array = array2 + array3
-smallest_no = combined_array[0]
-largest_no = combined_array[0]
+#m1) combine array 
+combined_array = array1+array2
+print("Largest No - ",max(combined_array),"- Smallest NO ",min(combined_array)) 
+
+#m2) again combine array But long method
+largest_no = combined_array[0] # for tracking from 1st  idx element (initializing )
+smallest_no = combined_array[0] # same for tracking and comparing from 1st idx 
 for eachNo in combined_array:
-    if eachNo < smallest_no:
-        smallest_no = eachNo #understand above question 
-    elif eachNo > largest_no:
-        largest_no = eachNo #agar upar nhi aya 
-print(smallest_no," is the largest No b/w array2 and array3 ")
-print(largest_no," is the largest No b/w array2 and array3 ")
+    if eachNo > largest_no:
+        largest_no = eachNo
+    elif eachNo < smallest_no:
+        smallest_no = eachNo
+print("Smallest NO - " , smallest_no)
+print("Largest NO - ", largest_no )
+
 
 # Shorcut / Function  :- but not best for problem solving and building logic and often limited
 #here as we combined 2 array in one so can make this....
