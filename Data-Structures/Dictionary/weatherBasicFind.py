@@ -105,4 +105,20 @@ if response.status_code==200:
     print(data["forecast"][1].get("day"))
 else:
     print("NOT FOUND...")
-    
+
+
+#random stuff
+devices = [
+    "Router", "Switch", "Firewall", "Server", 
+    "Access Point", "Laptop", "Desktop", 
+    "IP Camera", "NAS", "Load Balancer"
+]
+ip_addresses = [
+    "192.168.1.1", "192.168.1.2", "192.168.1.3", 
+    "192.168.1.4", "192.168.1.5", "192.168.1.6", 
+    "192.168.1.7", "192.168.1.8", "192.168.1.9", 
+    "192.168.1.10"
+]
+
+for idx,value in enumerate(devices):
+    print(f"device -> {value} , ip -> {ip_addresses[idx]}")
