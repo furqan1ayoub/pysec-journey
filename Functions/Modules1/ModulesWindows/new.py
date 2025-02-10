@@ -12,4 +12,6 @@ response = requests.get(url)
 
 #status code -> inner property/key of the data we got
 if response.status_code == 200:
-    print(response.cookies) #response ka key text
+    print(response.status_code) #response ka key text
+
+
