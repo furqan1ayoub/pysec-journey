@@ -1,0 +1,5 @@
+{1: {'name': 'John', 'age': '25', 'city': 'NewYork'}, 2: {'name': 'Mary', 'age': '30', 'city': 'Boston'}}
+Formated Values
+---------------
+1 - {'name': 'John', 'age': '25', 'city': 'NewYork'}
+2 - {'name': 'Mary', 'age': '30', 'city': 'Boston'}

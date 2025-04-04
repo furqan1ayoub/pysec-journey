@@ -1,0 +1,5 @@
+										WORKING LINKS / DIRECOTIRES 
+http://localhost:80/cpanel/
+http://localhost:80/console/
+http://localhost:80/webadmin/
+http://localhost:80/tmp/

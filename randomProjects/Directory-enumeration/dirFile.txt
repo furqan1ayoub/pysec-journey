@@ -1,0 +1,74 @@
+# Common admin and login panels
+/admin/
+/administrator/
+/admin/login/
+/adminpanel/
+/wp-admin/
+/cpanel/
+/dashboard/
+/console/
+/login/
+/user/login/
+/account/login/
+/webadmin/
+
+# Hidden or less obvious
+/.git/
+/.git/config
+/.svn/
+/.hg/
+/env/
+/.ENV/
+/config/
+/configs/
+/private/
+/backup/
+/backups/
+/old/
+/test/
+/dev/
+/development/
+/hidden/
+/secret/
+/.secrets/
+/logs/
+/server-status/
+/staging/
+/internal/
+/api/private/
+/api/secret/
+/tmp/
+/uploads/
+/uploads/private/
+/uploads/.hidden/
+/database/
+/db_backups/
+/db-dumps/
+
+# Web app framework specific
+/vendor/         # Laravel
+/storage/        # Laravel
+/node_modules/   # Node.js
+/WEB-INF/        # Java (Tomcat)
+/bin/
+/cgi-bin/
+/admin123/
+/siteadmin/
+
+# WordPress specific
+/wp-content/
+/wp-includes/
+/wp-json/
+/xmlrpc.php
+/license.txt
+/readme.html
+
+# Miscellaneous
+/index.php.bak
+/index.html.bak
+/config.php.bak
+/.bash_history
+/.htaccess
+/.htpasswd
+/.DS_Store
+/.well-known/

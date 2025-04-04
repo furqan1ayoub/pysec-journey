@@ -1,0 +1,5 @@
+To prevent crashes: If an exception occurs and is not handled, the program stops running.
+
+To handle different types of errors differently: Some errors should stop execution, while others should be ignored or fixed.
+
+To ensure smooth execution: Even if an error occurs, the program can continue running instead of crashing.

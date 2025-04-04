@@ -1,0 +1,10 @@
+Line 1: This is a normal line.  
+Line 2: Everything is working fine.  
+Line 3: ERROR - Something went wrong here.  
+Line 4: Another normal line.  
+Line 5: ERROR - Failed to load the module.  
+Line 6: All systems operational.  
+Line 7: ERROR - Unable to connect to the server.  
+Line 8: Process completed successfully.  
+Line 9: ERROR - Missing required files.  
+Line 10: End of the log file.  
